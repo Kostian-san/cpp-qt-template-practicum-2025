@@ -20,11 +20,11 @@ enum class ControlKey {
 };
 
 enum class ControllerType {
+    DOUBLE,
+    FLOAT,
     UINT8_T,
     INT,
     INT64_T,
     SIZE_T,
-    DOUBLE,
-    FLOAT,
     RATIONAL,
 };

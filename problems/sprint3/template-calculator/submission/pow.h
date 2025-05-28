@@ -3,7 +3,7 @@
 #include "rational.h"
 
 template<class Number>
-Number IntegerPow(Number l_op, Number r_op) {
+Number IntegerPow(Number l_op, Number r_op) { //IntegerPow
     Number res = 1;
     while (r_op > 0) {
         if (r_op & 1) {
@@ -15,7 +15,7 @@ Number IntegerPow(Number l_op, Number r_op) {
     return res;
 }
 
-inline Rational Pow(Rational lhs, Rational rhs) {
+inline Rational RPow(Rational lhs, Rational rhs) {
     if (rhs.GetDenominator() != 1) {
         std::abort();
     }

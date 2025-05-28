@@ -5,6 +5,7 @@
 #include "calculator.h"
 #include "mainwindow.h"
 #include "rational.h"
+#include "pow.h"
 
 template<class T>
 std::string ToString(T number) {

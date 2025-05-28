@@ -23,6 +23,9 @@ int main(int argc, char *argv[])
         case ControllerType::FLOAT:
             float_controller.BindWithMainWindow(&w);
             break;
+        case ControllerType::UINT8_T:
+            byte_controller.BindWithMainWindow(&w);
+            break;
         case ControllerType::INT:
             int_controller.BindWithMainWindow(&w);
             break;
@@ -31,9 +34,6 @@ int main(int argc, char *argv[])
             break;
         case ControllerType::SIZE_T:
             size_t_controller.BindWithMainWindow(&w);
-            break;
-        case ControllerType::UINT8_T:
-            byte_controller.BindWithMainWindow(&w);
             break;
         case ControllerType::RATIONAL:
             rational_controller.BindWithMainWindow(&w);
