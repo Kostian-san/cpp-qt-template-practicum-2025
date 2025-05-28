@@ -2,7 +2,6 @@
 
 #include "calculator.h"
 #include "enums.h"
-//#include "pow.h"
 
 #include <QMainWindow>
 

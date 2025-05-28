@@ -6,8 +6,6 @@
 #include <cstdint>
 #include <numeric>
 
-//#include "pow.h"
-
 // Реализуйте класс Rational.
 class Rational {
 public:

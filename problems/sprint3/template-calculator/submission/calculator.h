@@ -10,7 +10,6 @@
 #include <QDebug>
 
 using Error = std::string;
-//using namespace std::literals;
 
 template<class Number>
 class Calculator {
